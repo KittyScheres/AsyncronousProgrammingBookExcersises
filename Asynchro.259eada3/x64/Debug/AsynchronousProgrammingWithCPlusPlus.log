@@ -1,3 +1,2 @@
-﻿  ThreadSyncronization.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\syncstream(11): warning STL4038: The contents of <syncstream> are available only with C++20 or later.
+﻿  AsynchronousProgrammingWithCPlusPlus.cpp
   AsynchronousProgrammingWithCPlusPlus.vcxproj -> C:\Users\kitty\Desktop\AsynchronousProgrammingWithCPlusPlus\x64\Debug\AsynchronousProgrammingWithCPlusPlus.exe

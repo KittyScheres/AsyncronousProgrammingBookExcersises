@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Excersises/Chapter3/ThreadSyncronization.h"
+#include "Excersises/Chapter3/ThreadIdentification.h"
 
 int main()
 {
-    Chapter3::ThreadSyncronization::RaceCondition();
+    Chapter3::ThreatIdentification::CreateAndIdentifyThread();
 }

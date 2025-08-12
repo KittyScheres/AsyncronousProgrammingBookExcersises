@@ -24,12 +24,18 @@
     <ClCompile Include="Excersises\Chapter3\ThreadSyncronization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Excersises\Chapter3\ThreadIdentification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Excersises\Chapter3\ThreadInstantiation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Excersises\Chapter3\ThreadSyncronization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Excersises\Chapter3\ThreadIdentification.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
