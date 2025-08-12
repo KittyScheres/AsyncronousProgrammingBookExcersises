@@ -1,4 +1,6 @@
 #include <iostream>
+
+#include <syncstream>
 #include <thread>
 
 namespace Chapter3 {
@@ -6,13 +8,13 @@ namespace Chapter3 {
 		void RaceCondition() {
 			std::thread t1 = std::thread([](){
 				for (int i = 0; i < 100; i++) {
-					printf("1 2 3 4\n");
+					std::osyncstream(std::cout) << "1" << "2" << "3" << "4" << std::endl;
 				}
 			});
 
 			std::thread t2 = std::thread([]() {
 				for (int i = 0; i < 100; i++) {
-					printf("5 6 7 8\n");
+					std::osyncstream(std::cout) << "5" << "6" << "7" << "8" << std::endl;
 				}
 			});
 
